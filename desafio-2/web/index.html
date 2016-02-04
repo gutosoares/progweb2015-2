@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cálculo IMC - JSP + Servlet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Cálculo IMC - Servlet</h1>
+        <hr/>
+        <h2>Insira sua altura e seu peso nos campos indicados abaixo:</h2>
+        <br/>
+        <form action= "./calculoIMC" method="get">
+            Altura: <input type="number" name="altura" step="any" min="1" max="2.2" value="1" required />
+            <br/>
+            Peso: <input type="number" name="peso" step="any" min="1" max="300" value="1" required /> 
+            <input type="submit" value="Calcular!"/>
+        </form>
+        
+    </body>
+</html>
